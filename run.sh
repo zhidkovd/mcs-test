@@ -1,5 +1,8 @@
 #!/bin/bash
 
+rm private_key1.pem
+rm private_key2.pem
+
 ./terraform -chdir=./cloud1 apply -auto-approve
 ./terraform -chdir=./cloud1 output private_key1 | sed '1d' | sed '$d' >> ./private_key1.pem
 
