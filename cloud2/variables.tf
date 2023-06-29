@@ -1,16 +1,16 @@
 variable "username_tf" {
   type = string
-  default = "dima.zhidkov.29@mail.ru"
+  default = ""
 }
 
 variable "password_tf" {
   type = string
-  default = "Jda29!20!"
+  default = ""
 }
 
 variable "project_id_tf" {
   type = string
-  default = "24b9833d2ac546af96a50c8be209ed11"
+  default = ""
 }
 
 variable "image_flavor" {
